@@ -17,9 +17,11 @@ Mars Exploration
 By selecting any date and pressing save, information from the selected date will be fetched and displayed when clicking on search selected date button. In case of not finding any image, it will show an error image and ask for another selection.
 
 Selection confirmation:
+
 <img width="369" alt="Screenshot 2023-03-07 at 3 36 26 PM" src="https://user-images.githubusercontent.com/100256372/223558453-a63c374e-dbbf-4d7c-97a5-d656fb14194b.png">
 
 Example of a successful search:
+
 <img width="367" alt="Screenshot 2023-03-07 at 3 36 47 PM" src="https://user-images.githubusercontent.com/100256372/223558521-cb34a146-cfec-4ac3-8ea6-5396533b3696.png">
 
 Example of a failed search:
