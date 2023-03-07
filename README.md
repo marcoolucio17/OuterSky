@@ -12,7 +12,7 @@ Image of the day example:
 <img width="370" alt="Screenshot 2023-03-07 at 3 33 47 PM" src="https://user-images.githubusercontent.com/100256372/223557994-9a3ac73d-4874-4f46-aec4-1607e46edfbe.png">
 
 
-Mars Exploration
+Selecting Mars Exploration option will lead into the following date selection view:
 
 <img width="372" alt="Screenshot 2023-03-07 at 3 34 36 PM" src="https://user-images.githubusercontent.com/100256372/223558118-9cd9e586-21d5-4b51-93e9-b4357b1634ab.png">
 
