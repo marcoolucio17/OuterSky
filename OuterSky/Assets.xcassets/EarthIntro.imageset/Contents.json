@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "earth-g05fe8b87c_1280.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "earth-g05fe8b87c_1280@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "earth-g05fe8b87c_1280@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

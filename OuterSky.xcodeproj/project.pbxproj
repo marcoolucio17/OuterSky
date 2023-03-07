@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D44F69F29AA7FBA00AB0306 /* ZoomManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D44F69E29AA7FBA00AB0306 /* ZoomManagement.swift */; };
+		0D744F73299C09BE00BB82F1 /* MarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D744F72299C09BE00BB82F1 /* MarsView.swift */; };
+		0D744F77299C15B000BB82F1 /* ImageDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D744F76299C15B000BB82F1 /* ImageDayView.swift */; };
+		0DAFCF9E2995A2BC0006250E /* OuterSkyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAFCF9D2995A2BC0006250E /* OuterSkyApp.swift */; };
+		0DAFCFA02995A2BC0006250E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAFCF9F2995A2BC0006250E /* ContentView.swift */; };
+		0DAFCFA22995A2BE0006250E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAFCFA12995A2BE0006250E /* Assets.xcassets */; };
+		0DAFCFA52995A2BE0006250E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAFCFA42995A2BE0006250E /* Preview Assets.xcassets */; };
+		0DAFCFAF299611D20006250E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAFCFAE299611D20006250E /* Constants.swift */; };
+		0DAFCFB4299615BC0006250E /* NetworkManagerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAFCFB3299615BC0006250E /* NetworkManagerImage.swift */; };
+		0DAFCFB7299615EF0006250E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAFCFB6299615EF0006250E /* WebView.swift */; };
+		0DAFCFB92996A99F0006250E /* NetworkManagerMars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAFCFB82996A99F0006250E /* NetworkManagerMars.swift */; };
+		0DAFCFBB2996A9EE0006250E /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAFCFBA2996A9EE0006250E /* ImageData.swift */; };
+		0DAFCFBD2996A9FC0006250E /* MarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAFCFBC2996A9FC0006250E /* MarsData.swift */; };
+		0DAFCFC22996D4950006250E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAFCFC12996D4950006250E /* Launch Screen.storyboard */; };
+		0DAFCFC4299702D10006250E /* MarsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAFCFC3299702D00006250E /* MarsPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D44F69E29AA7FBA00AB0306 /* ZoomManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZoomManagement.swift; path = ../../../../ZoomManagement.swift; sourceTree = "<group>"; };
+		0D744F72299C09BE00BB82F1 /* MarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsView.swift; sourceTree = "<group>"; };
+		0D744F76299C15B000BB82F1 /* ImageDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDayView.swift; sourceTree = "<group>"; };
+		0DAFCF9A2995A2BC0006250E /* OuterSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OuterSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAFCF9D2995A2BC0006250E /* OuterSkyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterSkyApp.swift; sourceTree = "<group>"; };
+		0DAFCF9F2995A2BC0006250E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0DAFCFA12995A2BE0006250E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DAFCFA42995A2BE0006250E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DAFCFAB2995A9F10006250E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0DAFCFAE299611D20006250E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0DAFCFB3299615BC0006250E /* NetworkManagerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerImage.swift; sourceTree = "<group>"; };
+		0DAFCFB6299615EF0006250E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		0DAFCFB82996A99F0006250E /* NetworkManagerMars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerMars.swift; sourceTree = "<group>"; };
+		0DAFCFBA2996A9EE0006250E /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		0DAFCFBC2996A9FC0006250E /* MarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsData.swift; sourceTree = "<group>"; };
+		0DAFCFBE2996BDA00006250E /* OuterSky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OuterSky.entitlements; sourceTree = "<group>"; };
+		0DAFCFC12996D4950006250E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0DAFCFC3299702D00006250E /* MarsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DAFCF972995A2BC0006250E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DAFCF912995A2BC0006250E = {
+			isa = PBXGroup;
+			children = (
+				0DAFCF9C2995A2BC0006250E /* OuterSky */,
+				0DAFCF9B2995A2BC0006250E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DAFCF9B2995A2BC0006250E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DAFCF9A2995A2BC0006250E /* OuterSky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DAFCF9C2995A2BC0006250E /* OuterSky */ = {
+			isa = PBXGroup;
+			children = (
+				0DAFCFBE2996BDA00006250E /* OuterSky.entitlements */,
+				0DAFCFAB2995A9F10006250E /* Info.plist */,
+				0DAFCF9D2995A2BC0006250E /* OuterSkyApp.swift */,
+				0DAFCFB2299615AD0006250E /* Models */,
+				0DAFCFB1299615110006250E /* Views */,
+				0DAFCFA12995A2BE0006250E /* Assets.xcassets */,
+				0DAFCFAE299611D20006250E /* Constants.swift */,
+				0DAFCFC12996D4950006250E /* Launch Screen.storyboard */,
+				0DAFCFA32995A2BE0006250E /* Preview Content */,
+			);
+			path = OuterSky;
+			sourceTree = "<group>";
+		};
+		0DAFCFA32995A2BE0006250E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0DAFCFA42995A2BE0006250E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DAFCFB1299615110006250E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DAFCF9F2995A2BC0006250E /* ContentView.swift */,
+				0DAFCFB6299615EF0006250E /* WebView.swift */,
+				0DAFCFC3299702D00006250E /* MarsPicker.swift */,
+				0D744F72299C09BE00BB82F1 /* MarsView.swift */,
+				0D744F76299C15B000BB82F1 /* ImageDayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DAFCFB2299615AD0006250E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DAFCFB3299615BC0006250E /* NetworkManagerImage.swift */,
+				0DAFCFB82996A99F0006250E /* NetworkManagerMars.swift */,
+				0DAFCFBA2996A9EE0006250E /* ImageData.swift */,
+				0DAFCFBC2996A9FC0006250E /* MarsData.swift */,
+				0D44F69E29AA7FBA00AB0306 /* ZoomManagement.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DAFCF992995A2BC0006250E /* OuterSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAFCFA82995A2BE0006250E /* Build configuration list for PBXNativeTarget "OuterSky" */;
+			buildPhases = (
+				0DAFCF962995A2BC0006250E /* Sources */,
+				0DAFCF972995A2BC0006250E /* Frameworks */,
+				0DAFCF982995A2BC0006250E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OuterSky;
+			productName = OuterSky;
+			productReference = 0DAFCF9A2995A2BC0006250E /* OuterSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DAFCF922995A2BC0006250E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0DAFCF992995A2BC0006250E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0DAFCF952995A2BC0006250E /* Build configuration list for PBXProject "OuterSky" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DAFCF912995A2BC0006250E;
+			productRefGroup = 0DAFCF9B2995A2BC0006250E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DAFCF992995A2BC0006250E /* OuterSky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DAFCF982995A2BC0006250E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAFCFC22996D4950006250E /* Launch Screen.storyboard in Resources */,
+				0DAFCFA52995A2BE0006250E /* Preview Assets.xcassets in Resources */,
+				0DAFCFA22995A2BE0006250E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DAFCF962995A2BC0006250E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D744F73299C09BE00BB82F1 /* MarsView.swift in Sources */,
+				0D744F77299C15B000BB82F1 /* ImageDayView.swift in Sources */,
+				0D44F69F29AA7FBA00AB0306 /* ZoomManagement.swift in Sources */,
+				0DAFCFC4299702D10006250E /* MarsPicker.swift in Sources */,
+				0DAFCFB7299615EF0006250E /* WebView.swift in Sources */,
+				0DAFCFA02995A2BC0006250E /* ContentView.swift in Sources */,
+				0DAFCFB4299615BC0006250E /* NetworkManagerImage.swift in Sources */,
+				0DAFCF9E2995A2BC0006250E /* OuterSkyApp.swift in Sources */,
+				0DAFCFAF299611D20006250E /* Constants.swift in Sources */,
+				0DAFCFB92996A99F0006250E /* NetworkManagerMars.swift in Sources */,
+				0DAFCFBD2996A9FC0006250E /* MarsData.swift in Sources */,
+				0DAFCFBB2996A9EE0006250E /* ImageData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DAFCFA62995A2BE0006250E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DAFCFA72995A2BE0006250E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DAFCFA92995A2BE0006250E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OuterSky/OuterSky.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OuterSky/Preview Content\"";
+				DEVELOPMENT_TEAM = 52NL2ZXMW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OuterSky/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Outer Sky";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.mikesplayground.OuterSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DAFCFAA2995A2BE0006250E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OuterSky/OuterSky.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OuterSky/Preview Content\"";
+				DEVELOPMENT_TEAM = 52NL2ZXMW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OuterSky/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Outer Sky";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.mikesplayground.OuterSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DAFCF952995A2BC0006250E /* Build configuration list for PBXProject "OuterSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAFCFA62995A2BE0006250E /* Debug */,
+				0DAFCFA72995A2BE0006250E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAFCFA82995A2BE0006250E /* Build configuration list for PBXNativeTarget "OuterSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAFCFA92995A2BE0006250E /* Debug */,
+				0DAFCFAA2995A2BE0006250E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DAFCF922995A2BC0006250E /* Project object */;
+}
