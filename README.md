@@ -7,8 +7,10 @@ Home Page demostration:
 
 Select whichever option you would like to utilize. Complete description for the image of the day is accessed by selecting the button. 
 
+Image of the day example:
+
 <img width="370" alt="Screenshot 2023-03-07 at 3 33 47 PM" src="https://user-images.githubusercontent.com/100256372/223557994-9a3ac73d-4874-4f46-aec4-1607e46edfbe.png">
-Example day image view.
+
 
 Mars Exploration
 
