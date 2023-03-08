@@ -46,7 +46,7 @@ class NetworkManagerMars: ObservableObject {
             marsTask.resume()
         }
     }
-    
+    // Default fetch for testing
     func fetchData() {
         strungSelectedDate = "2018-11-28"
         if let firstUrlString = URL(string: "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2018-11-28&api_key=gqR30fI23A1mLV0hbixUMlHqx6gnYSTHVoxxkKvn"){
@@ -72,19 +72,6 @@ class NetworkManagerMars: ObservableObject {
             }
             marsTask.resume()
         }
-    }
-    
-    func getDesiredUrl() -> String {
-        if let someURL = self.images.first?.img_src {
-            return someURL
-        } else {
-            return "https://google.com"
-        }
-    }
-    
-    func getDays() -> Bool {
-        
-        return true
     }
 }
 
