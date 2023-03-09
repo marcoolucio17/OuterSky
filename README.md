@@ -1,6 +1,8 @@
 # OuterSky
 SwiftUI mobile application that utilizes two NASA API's in order to display the image of the day as well as a selected earth day on Mars. Built entirely on Swift as a personal project. Zoom management file contains code from open-sourced github repo with its corresponding source. 
 
+Not available for cloning.
+
 Home Page demostration:
 
 <img width="366" alt="Screenshot 2023-03-07 at 3 32 00 PM" src="https://user-images.githubusercontent.com/100256372/223557670-5546152f-ff65-48d1-a227-c5448f3ea32d.png">
