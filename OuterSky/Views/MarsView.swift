@@ -8,8 +8,6 @@
 import Foundation
 import SwiftUI
 
-var exampleURL = "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/02673/opgs/edr/fcam/FLB_634797777EDR_F0790000FHAZ00341M_.JPG"
-
 var exampleMarsObj = NetworkManagerMars()
 
 struct ImageView: View {
